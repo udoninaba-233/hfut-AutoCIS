@@ -1,4 +1,4 @@
-name: hfut-lite
+name: AutoCIS
 
 on:
 
@@ -13,7 +13,7 @@ on:
 
 jobs: 
 
-  Lite:
+  AutoCIS:
     runs-on: ubuntu-latest
 
     steps:
@@ -30,9 +30,6 @@ jobs:
 
       - name: Ensure browsers are installed
         run: python -m playwright install
-
-      - name: Install operating system dependencies
-        run: python -m playwright install-deps
 
       - name: Run python script
         env:

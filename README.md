@@ -1,9 +1,9 @@
 <div align="center">
 <h1 align="center">HFUT今日校园自动签到</h1>
-<img src="https://img.shields.io/github/issues/choya-lee/hfutDailyCP-Lite?color=green">
-<img src="https://img.shields.io/github/stars/choya-lee/hfutDailyCP-Lite?color=yellow">
-<img src="https://img.shields.io/github/forks/choya-lee/hfutDailyCP-Lite?color=orange">
-    <img src="https://img.shields.io/github/license/choya-lee/hfutDailyCP-Lite?color=red">
+<img src="https://img.shields.io/github/issues/choya-lee/hfut-AutoCIS?color=green">
+<img src="https://img.shields.io/github/stars/choya-lee/hfut-AutoCIS?color=yellow">
+<img src="https://img.shields.io/github/forks/choya-lee/hfut-AutoCIS?color=orange">
+    <img src="https://img.shields.io/github/license/choya-lee/hfut-AutoCIS?color=red">
 </div>
 
 
@@ -12,6 +12,7 @@
 1. 本项目为[hfutDailyCP](https://github.com/choya-lee/hfutDailyCP)的`简易版`，毫无技术可言，但推荐使用此项目
 2. 仅适用于`合肥工业大学`的今日校园打卡
 3. 账号、密码即`新信息门户`的账号(学号)和密码
+3. 后续会整合自用的一些自动化脚本，届时仓库结构将会变化
 
 ### 实现功能
 
@@ -23,20 +24,20 @@
 
 1. Star&Fork此仓库
 
-![fork](https://github.com/choya-lee/hfutDailyCP-Lite/raw/main/imgs/fork.png)
+![fork](https://github.com/choya-lee/hfut-AutoCIS/raw/main/imgs/fork.png)
 
 2. 点击导航栏Action，启用workflow
 
 
-![action](https://github.com/choya-lee/hfutDailyCP-Lite/raw/main/imgs/action.png)
+![action](https://github.com/choya-lee/hfut-AutoCIS/raw/main/imgs/action.png)
 
-![workflow](https://github.com/choya-lee/hfutDailyCP-Lite/raw/main/imgs/workflow.png)
+![workflow](https://github.com/choya-lee/hfut-AutoCIS/raw/main/imgs/workflow.png)
 
 
 
 3. setting -> secret -> 新建一个secret
 
-![secret](https://github.com/choya-lee/hfutDailyCP-Lite/raw/main/imgs/secret.png)
+![secret](https://github.com/choya-lee/hfut-AutoCIS/raw/main/imgs/secret.png)
 
 4. `name`栏：填`INFO`
 
@@ -51,9 +52,9 @@
    ```
    
 
-![info](https://github.com/choya-lee/hfutDailyCP-Lite/raw/main/imgs/info.png)
+![info](https://github.com/choya-lee/hfut-AutoCIS/raw/main/imgs/info.png)
 
-至此设置完成，脚本将在每天14：30左右签到。若fork时未签到且已过签到时间，随意更改[README.md](README.md)内容(eg:添加删改标点符号)，可在action处观察到本次签到结果
+至此设置完成，脚本将在每天14：30左右签到。若fork时未签到且已过签到时间，随意更改[README.md](README.md)内容(eg:增删标点符号)，可在action处观察到本次签到结果
 
 
 ---
