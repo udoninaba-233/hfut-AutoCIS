@@ -29,9 +29,11 @@ jobs:
           pip install playwright
 
       - name: Ensure browsers are installed
-        run: python -m playwright install
+        run: |
+          python -m playwright install
+          playwright install-deps
 
       - name: Run python script
         env:
             INFO: ${{ secrets.INFO }}
-        run: python hfut_lite.py 
+        run: python3 hfut_lite.py 
